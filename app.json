@@ -2,8 +2,21 @@
     "name": "zhengsapphire",
     "description": "Deploy zhengsapphire on Heroku.",
     "keywords": ["zhengsapphire"],
-   
-    "website": "",
-    "repository": "",
+    "env": {
+        "ID": {
+            "description": "UUID",
+            "value": "edea3539-564f-450f-99ce-cc39f993b378"
+        },
+        "AID": {
+            "description": "AlterID",
+            "value": "64"
+        },
+        "WSPATH": {
+            "description": "WebSocket Path",
+            "value": "/1234"
+        }
+    },
+    "website": "https://ibcl.us/Heroku-V2Ray_20191014/",
+    "repository": "https://github.com/bclswl0827/v2ray-heroku",
     "stack": "container"
 }
