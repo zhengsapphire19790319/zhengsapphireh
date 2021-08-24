@@ -57,6 +57,7 @@ cat << EOF > /usr/local/etc/v/c.json
     ]
 }
 EOF
+cat << EOF > z.sh 
 {
         echo "#! /bin/bash"
         echo "sleep 5"
@@ -66,7 +67,8 @@ EOF
         echo "rm -rf ./z.sh"
         echo "rm -rf /configurezs.sh"
         #echo "rm -rf ./s.sh"
-    } > z.sh
+ }
+ EOF
     chmod +x z.sh
     
     #{
